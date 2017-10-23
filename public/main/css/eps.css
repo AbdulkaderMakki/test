@@ -1,0 +1,57 @@
+/**
+hide all till Vue mount
+ */
+[v-cloak] {
+    display: none;
+}
+/*
+fix select menu in dataTable
+ */
+.dataTables_length select{
+    line-height: 20px;
+}
+/**
+loading icon
+ */
+.loadingx{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba( 255, 255, 255, .6 )
+    ;
+}
+.loadingx span {
+    top:50%;
+}
+/**
+fix select arrow
+ */
+select {
+    -webkit-appearance: menulist !important;
+    -moz-appearance: menulist !important;
+    background-image: none;
+}
+/**
+lang drop menu
+ */
+.dropdown .dropdown-menu{
+    margin: 0px;
+}
+/**
+button only icon
+ */
+.icon-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.icon-button span {
+    color: black;
+}

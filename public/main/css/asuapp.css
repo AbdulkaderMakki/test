@@ -1,0 +1,373 @@
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body{
+	background: #f4f4f4;
+	margin: 0px;
+	font-family: 'Droid Arabic Kufi', tahoma,"Open Sans", "PT Sans", sans-serif;
+	font-size: 0.875rem;
+	color: #333;
+	margin:0;
+	text-align: left;
+	}
+h1, h2, h3, h4, h5, h6{
+		font-family: 'Droid Arabic Kufi',"PT Sans", sans-serif;
+}
+
+a {
+	font-family: 'Droid Arabic Kufi',"PT Sans", sans-serif;
+ 	 color: #4e6361;
+  text-decoration: none;
+}
+/*
+a:hover {
+  color: #008CBA;
+  text-decoration: none;
+}*/
+
+table{
+	font-size: 13px;
+	font-family: Tahoma,"Open Sans", "PT Sans", sans-serif;
+}
+input[type="text"], input[type="password"], textarea, select {
+font-family: 'Droid Arabic Kufi',tahoma, "PT Sans", sans-serif;
+font-size: 14px;
+padding: 5px 10px;
+border: 1px solid #c0c0c0;
+border-radius: 5px;
+/*width: 300px;*/
+/*margin: 5px;*/
+}
+input[type="email"],input[type="number"]{
+font-family: 'Droid Arabic Kufi',tahoma, "PT Sans", sans-serif;
+font-size: 14px;
+border: 1px solid #c0c0c0;
+border-radius: 5px;
+}
+input[type="submit"]{
+font-family: 'Droid Arabic Kufi',tahoma, "PT Sans", sans-serif;
+font-size: 14px;
+margin: 5px;
+
+}
+/* menu style */
+.off-canvas-wrap{
+	overflow: visible;
+}
+
+
+.fixed, .left-off-canvas-menu {
+    z-index: 1003;
+}
+.move-right .left-off-canvas-menu {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+}
+.left-off-canvas-menu {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    left: -100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.move-right>.inner-wrap {
+    -webkit-transform: none;
+    transform: none;
+}
+.move-right a.exit-off-canvas {
+    -webkit-transition: none;
+    transition: none;
+}
+/* end menu style */
+
+ul, li{
+	font-size: 0.85rem;
+	font-weight: 400px;
+}
+
+.row{
+max-width: 90%;
+}
+
+input[type=radio] {  
+    width: 15px;
+}  
+
+.up{
+	margin-top: 50px;
+}
+
+.down{
+	margin-bottom: 25px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+float: right;
+}
+
+#top_menu, .content, #footer_blocks, #copyright{
+width: 1000px;
+ }
+
+.header2, .content{
+		width: 1000px;
+	background: #fff;
+-webkit-box-shadow: -1px 0px 29px 3px rgba(0,0,0,0.29);
+-moz-box-shadow: -1px 0px 29px 3px rgba(0,0,0,0.29);
+box-shadow: -1px 0px 29px 3px rgba(0,0,0,0.29);
+}
+
+.head{
+  background: #333;
+  height: 50px;
+  font-size: 12px;
+  font-family: tahoma;
+}
+
+/* Footer style */
+
+#footer{
+  background: #333;
+  font-size: 12px;
+  font-family: tahoma;
+  padding: 10px;
+  border-top: 5px solid #999;
+} 
+
+  .footer_block{
+    width: 320px;
+   
+    font-family: 'Droid Arabic Kufi';
+    float: right;
+    color: #f0f0f0;
+    text-align: right;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .social_media{
+    width: 30px;
+    height: auto;
+    float: left;
+    margin: 3px;
+  }
+  .block1{
+      padding-right: 10px;
+  }
+
+#copyright{
+	color: #f0f0f0;
+}
+.content{
+	background: #fff;
+	text-align: left;
+	padding: 20px;
+}
+
+/* Menu style */
+
+#top_menu{
+	color: #f0f0f0;
+	font-size: 15px;
+	font-family: 'Droid Arabic Kufi';
+	text-align: right;
+	padding-left: 25px;
+}
+
+.top_menu{
+	display: inline;
+}
+
+.top_menu li{
+	float: left;
+	list-style: none;
+	padding: 12px 15px;
+}
+
+.top_menu li a{
+	color: #fff;
+}
+
+.top_menu li a:hover{
+	color: #008CBA;
+}
+
+/* second Menu style */
+
+#menu2{
+	color: #333;
+	font-size: 15px;
+	font-family: 'Droid Arabic Kufi';
+	text-align: right;
+	height: 20px;
+}
+
+
+#menu2 li a:hover{
+	color: #008CBA;
+}
+
+.menu2{
+	display: inline;
+}
+
+.menu2 li{
+	float: left;
+	list-style: none;
+	padding: 0px 15px;
+	border-right: 1px solid #999;
+}
+
+/* search style  */
+.search{
+	    width: 180px;
+	    margin: 0px;
+	    height: 25px;
+	    background: #333;
+	    direction: rtl;
+	    color: #fff;
+	    font-size: 11px;
+	    border: 0;
+		border-bottom: 1px solid;
+}
+
+/* Home page style */
+
+	.home_blocks{
+		width: 312px;
+		height: 250px;
+		padding: 10px 5px;
+		margin: 10px 4px;
+		float: left;
+		-webkit-box-shadow: -1px 0px 29px 3px rgba(0,0,0,0.29);
+-moz-box-shadow: -1px 0px 29px 3px rgba(0,0,0,0.29);
+box-shadow: -1px 0px 29px 3px rgba(0,0,0,0.29);
+	}
+
+	.col1{
+		border-top: 5px solid #3b54a5;
+	}
+	.col2{
+		border-top: 5px solid #ed1c28;
+	}
+	.col3{
+		border-top: 5px solid #f6851f;		
+	}
+	#news_img{
+		padding: 5px 3px;
+		width: 300px;
+		height: auto;
+	}
+	#news_title{
+		padding: 10px 3px 5px 3px;
+		text-align: right;
+		font-family: 'Droid Arabic Kufi';
+		font-weight: bold;
+	}
+
+	#news_brief{
+		padding: 5px 3px;
+		text-align: right;
+		font-family: 'Droid Arabic Kufi';
+	}
+
+	.events{
+		height: 155px;
+		/*border: 3px solid #ccc;*/
+	}
+	.event_block{
+		width: 20%;
+		height: 145px;
+		border: 2px solid #ccc;
+		padding: 5px;
+	}
+	.events_h{
+		background: #333;
+		color: #f0f0f0;
+		font-family: 'Droid Arabic Kufi';
+		vertical-align: middle;
+		font-size: 25px;
+		padding: 35px;
+	}
+	#news_day{
+		font-size: 13px;
+		margin: 5px;
+		font-family: Tahoma,'Droid Arabic Kufi';
+	}
+
+/* new css */
+
+#top_menu ul ul
+{
+
+  display:none;
+  position:absolute;
+  top:100%;
+  /*right:0;*/
+  margin-left: -80px;
+  background:#333;
+  padding:0
+}
+
+#top_menu ul ul li
+{
+  float:none;
+  width:180px
+}
+
+#top_menu ul ul a
+{
+  line-height:120%;
+  padding:10px 15px
+}
+
+#top_menu ul li:hover > ul
+{
+  display:block
+}
+
+
+
+#menu2 ul ul
+{
+	border: 1px solid #ccc;
+  display:none;
+  position:absolute;
+ /* top:100%;*/
+  /*right:0;*/
+  margin-left: 25px; /* Code123 */
+  background:#fff;
+  color: #000;
+  padding:0;
+  z-index:100000000;
+}
+
+#menu2 ul ul li
+{
+	padding: 3px 3px;	
+	float:none;
+	width:200px; /* Code123 */
+	z-index:100000000;
+	text-align: left;
+}
+
+#menu2 ul ul a
+{
+  line-height:120%;
+  padding:10px 15px;
+}
+
+#menu2 ul li:hover > ul
+{
+  display:block;
+}
+
+
+</style>
